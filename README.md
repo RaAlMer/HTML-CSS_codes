@@ -1,2 +1,2 @@
 # HTML_codes
-Here, I'll publish my learning in HTML.
+Here, I'll publish my learning and projects using HTML.
