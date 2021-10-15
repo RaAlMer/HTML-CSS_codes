@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Survey</title>
+  </head>
+  <body>
+    <div class="flex-container">
+      <header>
+        <h1 id="title">
+          Do you want to be my girlfriend?
+        </h1>
+        <p id="description">
+          Thank you for completing this survey to improve my services as your boyfriend
+        </p>
+      </header><br>
+      <section>
+        <form id="survey-form">
+          <div class="name1">
+            <label for="name" id="name-label">
+              Name
+            </label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          </div><br>
+          <div class="email1">
+            <label for="email" id="email-label">
+              Email
+            </label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+          </div><br>
+          <div class="number1">
+            <label for="number" id="number-label">
+              Age (optional)
+            </label><br>
+            <input type="number" id="number" name="number" placeholder="Enter your age" min="18" max="199">
+          </div><br>
+          <div class="drop1">
+            <label for="dropdown" id="role-label">
+              Which option best describes your current role?
+            </label><br>
+            <select name="dropdown" id="dropdown" required>
+              <option value="" disabled selected hidden>
+                Select current role
+              </option>
+              <option value="Lover">
+                Lover
+              </option>
+              <option value="Best friend">
+                Best friend
+              </option>
+              <option value="Partner">
+                Partner
+              </option>
+              <option value="Lover">
+                Girlfriend
+              </option>
+              <option value="All of the above">
+                All of the above
+              </option>
+              <option value="Other">
+                Other
+              </option>
+            </select>
+          </div><br>
+          <div class="date1">
+            <p>
+              Would you date me?:
+            </p>
+            <input id="definitely" type="radio" name="dateme" value="definitely">
+            <label for="definitely">
+              Definitely
+            </label><br>
+            <input id="maybe" type="radio" name="dateme" value="maybe">
+            <label for="maybe">
+              Maybe
+            </label><br>
+            <input id="notsure" type="radio" name="dateme" value="notsure">
+            <label for="notsure">
+              Not sure
+            </label>
+          </div>
+          <div class="love1">
+            <p>
+              Would you love me?:
+            </p>
+            <input id="definitelylove" type="radio" name="loveme" value="definitelylove">
+            <label for="definitelylove">
+              Definitely
+            </label><br>
+            <input id="maybelove" type="radio" name="loveme" value="maybelove">
+            <label for="maybelove">
+              Maybe
+            </label><br>
+            <input id="notsurelove" type="radio" name="loveme" value="notsurelove">
+            <label for="notsurelove">
+              Not sure
+            </label>
+          </div><br>
+          <div class="feat1">
+            <label for="feattext" id="feat-label">
+              Which feature do you like more about me?
+            </label><br>
+            <textarea id="feattext" name="feattext" rows="6" cols="80" placeholder="Enter your comment here..."></textarea>
+          </div><br>
+          <div class="imp1">
+            <label for="loving">
+              What would you like me to improve? (Check all that apply)<br>
+              <input id="loving" type="checkbox" name="improvements" value="loving">
+              More love
+            </label><br>
+            <label for="cuddle">
+              <input id="cuddle" type="checkbox" name="improvements" value="cuddle">
+              More cuddles
+            </label><br>
+            <label for="kiss">
+              <input id="kiss" type="checkbox" name="improvements" value="kiss">
+              More kisses
+            </label><br>
+            <label for="hug">
+              <input id="hug" type="checkbox" name="improvements" value="hug">
+              More hugs
+            </label><br>
+            <label for="joke">
+              <input id="joke" type="checkbox" name="improvements" value="joke">
+              More jokes
+            </label><br>
+            <label for="nudism">
+              <input id="nudism" type="checkbox" name="improvements" value="nudism">
+              More nudism (Yes I know I have to do it more)
+            </label><br>
+            <label for="otherimp">
+              <input id="otherimp" type="checkbox" name="improvements" value="otherimp">
+              Other: 
+            </label>
+            <input id="otherimptxt" type="text" name="improvements">
+          </div><br>
+          <div class="comment">
+            <label for="imptext" id="imp-label">
+              Any comments or suggestions to improve being your boyfriend, or any things you would like I do or doing with me?
+            </label><br>
+            <textarea id="imptext" name="imptext" rows="10" cols="80" placeholder="Enter your comment here..."></textarea><br>
+          </div>
+          <div class="submit-button">
+            <button id="submit" type="submit">
+              Submit and declare I am the most beautiful girl in the universe
+            </button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
