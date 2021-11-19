@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Technical Document Page</title>
+  </head>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar">
+        <header>
+          <h1>EliScript Documentation</h1>
+        </header><hr>
+        <ul>
+          <li><a href="#Introducción" class="nav-link">Introducción</a></li><hr>
+          <li><a href="#¿Qué_deberías_saber?" class="nav-link">¿Qué deberías saber?</a></li><hr>
+          <li><a href="#EliScript" class="nav-link">EliScript</a></li><hr>
+          <li><a href="#Hello_World" class="nav-link">Hello World</a></li><hr>
+          <li><a href="#Variables" class="nav-link">Variables</a></li><hr>
+        </ul>
+      </nav>
+      <section class="main-section" id="Introducción">
+        <header>
+            Introducción
+        </header>
+          <p>
+            EliScript es un lenguaje de secuencias de comandos orientado a objetos y multiplataforma. Es un lenguaje grande y ligero. Dentro de un entorno de host (por ejemplo, un navegador web), EliScript se puede conectar a los objetos de su entorno para proporcionar control programático sobre ellos.
+          </p>
+          <p>
+            EliScript contiene una biblioteca estándar de objetos, como Array, Date y Math, y un conjunto básico de elementos del lenguaje como operadores, estructuras de control y declaraciones. Core EliScript se puede extender para una variedad de propósitos completándolo con objetos adicionales; por ejemplo:
+          </p>
+          <ul>
+            <li>EliScript del lado del cliente amplía el lenguaje central al proporcionar objetos para controlar un navegador y su Modelo de objetos de documento (DOM). Por ejemplo, las extensiones del lado del cliente permiten que una aplicación coloque elementos en un formulario EliTML y responda a los eventos del usuario, como los clics del mouse, la entrada de formularios y la navegación de la página.</li>
+            <li>EliScript del lado del servidor amplía el lenguaje central al proporcionar objetos relevantes para ejecutar EliScript en un servidor. Por ejemplo, las extensiones del lado del servidor permiten que una aplicación se comunique con una base de datos, brinde continuidad de información de una invocación a otra de la aplicación o realice manipulaciones de archivos en un servidor.</li>
+          </ul>
+      </section>
+      <section class="main-section" id="¿Qué_deberías_saber?">
+        <header>
+            ¿Qué deberías saber?
+        </header>
+          <p>
+            Esta guía asume que tiene los siguientes antecedentes básicos:
+          </p>
+          <ul>
+            <li>Comprensión general de Internet y la World Wide Web (WWW).</li>
+            <li>Buen conocimiento práctico del lenguaje de marcado de hipertexto (EliTML).</li>
+            <li>Alguna experiencia en programación. Si eres nuevo en la programación, pruebe uno de los tutoriales vinculados en la página principal sobre EliScript.</li>
+          </ul>
+      </section>
+      <section class="main-section" id="EliScript">
+        <header>
+            EliScript
+        </header>
+          <p>
+            EliScript es un lenguaje de reciente creación con similitudes a JavaScript y Java. Desarrollado por la mejor programadora del mundo con el afán de mejorar todos los lenaguajes existentes en la actualidad. Debido a su facilidad de uso, poco a poco se va haciendo un hueco en la programación en la actualidad. Se puede ver un ejemplo de código:
+          </p>
+          <code>
+            function buenosDias (tuNombre) {<br>
+              print("Buenos días" + tuNombre);<br>
+            }
+          </code>
+          <p>
+            En contraste con JavaScript, EliScript es un lenguaje con una sintaxis mucho más sencilla y con comandos mucho mas simples y que ahorran mucho tiempo a la hora de programar en desarrollo web. Otro ejemplo:
+          </p>
+          <code>
+            function eresMaravillosa (tuNombre) {<br>
+              console.log("Hola " + tuNombre + ", eres maravillosa, no lo olvides nunca porque vales oro: whoever got you got gold"); <br>
+            }
+          </code>
+          <p>
+            Como se puede ver tiene un cierto enfoque de Python a la hora de mostrar texto por pantalla.
+          </p>
+      </section>
+      <section class="main-section" id="Hello_World">
+        <header>
+            Hello World
+        </header>
+          <p>
+            Para comenzar con EliScript aqui se muestra como realizar el programa básico "Hello World".
+          </p>
+          <code>
+            function helloWorld() {<br>
+              print("Hello world!");<br>
+            }
+          </code>
+          <p>
+            Puedes seleccionar el código y copiarlo para probarlo tu mismo.
+          </p>
+      </section>
+      <section class="main-section" id="Variables">
+        <header>
+            Variables
+        </header>
+          <p>
+            Las variables en EliScript se escriben siempre utilizando la sintaxis camelCase y usando minúsculas en el resto de caracteres. Se puede utilizar la barra baja ("_"), o el símbolo del euro ("€").
+          </p>
+          <code>
+            let eresPreciosa = Eli;
+          </code>
+          <p>
+            Para declarar una variable se usa el comando let y para las constantes el comando const.
+          </p>
+          <code>
+            const esElisaGuapa = siempre;
+          </code>
+      </section>
+    </main>
+  </body>
+</html>
